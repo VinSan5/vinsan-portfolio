@@ -17,7 +17,7 @@ export default function Home() {
             <h3 className='text-2xl py-2 text-slate-100'>Desenvolvedor. Analista. Solucionador de problemas</h3>
 
             <div className='relative mx-auto rounded-full w-80 h-80 mt-10 overflow-hidden'>
-              <img src='/images/me.jpg' alt='dev image'/>
+              <img src='/images/me_bee.png' alt='dev image'/>
             </div>
 
             <p className='text-md font-semibold py-5 leading-6 text-slate-100'>Desde 2021 atuando especificamente com tecnologia para melhorar processos e resultados dos lugares por onde eu passo</p>
@@ -33,7 +33,11 @@ export default function Home() {
               <br></br>
               <p className='text-center text-lg font-light'>Meu nome é Vinícius, e atualmente trabalho utilizando tecnolgia (códigos, scripts e análises) para trazer valor e vantagem estratégicas nos lugares onde atuo</p>
               <br></br>
-              <p className='text-center text-3xl mt-20 font-medium bg-neutral-900'>Experiências</p>
+              <p className='text-center text-3xl mt-20 font-medium bg-neutral-900'>Experiência</p>
+              <br></br>
+              <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Analista de Sistemas (Atual)</p>
+              <p className='text-start text-md italic font-light'>Beelieve Group</p>
+              <p className='text-start text-md font-light'><strong>Desenvolvimento de CRM | Análise de dados | ETL | Gerenciamento de infraestrutura de redes | Levantamento de requisitos | Arquitetura de sistemas</strong></p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Scrum Master</p>
               <p className='text-start text-md italic font-light'>V2Saúde</p>
@@ -51,8 +55,12 @@ export default function Home() {
               <p className='text-center text-3xl mt-20 font-medium bg-neutral-900'>Projetos</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Solara</p>
-              <p className='text-start text-md italic font-light'>Programa para administração de condomínio<br></br>Em progresso | Projeto acadêmico<br></br>Papel: backend, arquitetura de banco<br></br>Tecnologias: Java, SQL, Spring, React</p>
+              <p className='text-start text-md italic font-light'>Programa para administração de condomínio<br></br>Pausado | Projeto acadêmico<br></br>Papel: backend, arquitetura de banco<br></br>Tecnologias: Java, SQL, Spring, React</p>
               <p className='text-start mt-1 text-md font-light'>Programa Web e mobile para armazenamento e acesso de informações de condomínio. Cadastro de usuários com roles de moradores e funcionários, publicação de documentos oficiais e eventos do condomínio. Implementação de chat para comunicação geral</p>
+              <br></br>
+              <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Dashboard de dados em tempo real</p>
+              <p className='text-start text-md italic font-light'>Disponibilização da dados para clientes e colaboradores<br></br>Em progresso<br></br>Papel: Head do projeto<br></br>Tecnologias: SQL, AWS QuickSight, Google Ads/Analytics, SEO</p>
+              <p className='text-start mt-1 text-md font-light'>Disponibilização de dados em tempo real por meio de ETL, tendo como fonte as ferramentas utilizadas, para assim disponibilizar dashboards em tempo real para colaboradores e clientes, com o intuito de eliminar o tempo gasto na criação de dashboards e relatórios</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Implementação de geolocalização</p>
               <p className='text-start text-md italic font-light'>Desenvolvimento de feature de geolocalização em ERP<br></br>Entregue | Projeto profissional<br></br>Papel: Scrum Master<br></br>Tecnologias: Jira, Java, React</p>
