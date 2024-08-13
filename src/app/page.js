@@ -1,5 +1,6 @@
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
+import { Analytics } from "@vercel/analytics/react"
 import Link from 'next/link'
 import Head from 'next/head'
 
