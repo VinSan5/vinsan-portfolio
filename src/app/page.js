@@ -49,7 +49,7 @@ export default function Home() {
               <p className='text-start text-md font-light'>Amazon Quicksight, reuniões diretamente com responsáveis das empresas atendidas e seus profissionais para entender suas solicitações, uso de SQL para extração de dados requisitados em solicitações e construção de análises e dashboards</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Analista de BI | Administrador de Sistemas</p>
-              <p className='text-start text-md italic font-light'>GSeg (atual)</p>
+              <p className='text-start text-md italic font-light'>GSeg</p>
               <p className='text-start text-md font-light'>Responsável por extração, transformação e carregamento dos dados para gerar dashboards e reports para análise de giro de estoque, acompanhamento financeiro e campanhas de venda</p>
               <p className='text-start text-md font-light'>Responsável pelo preservação e manutenção da infraestrutura de rede local</p>
               <br></br>
@@ -60,7 +60,7 @@ export default function Home() {
               <p className='text-start mt-1 text-md font-light'>Programa Web e mobile para armazenamento e acesso de informações de condomínio. Cadastro de usuários com roles de moradores e funcionários, publicação de documentos oficiais e eventos do condomínio. Implementação de chat para comunicação geral</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Dashboard de dados em tempo real</p>
-              <p className='text-start text-md italic font-light'>Disponibilização da dados para clientes e colaboradores<br></br>Em progresso<br></br>Papel: Head do projeto<br></br>Tecnologias: SQL, AWS QuickSight, Google Ads/Analytics, SEO</p>
+              <p className='text-start text-md italic font-light'>Disponibilização da dados para clientes e colaboradores<br></br>Em progresso<br></br>Papel: Head do projeto<br></br>Tecnologias: AWS, Glue, AWS S3, AWS QuickSight, Python, SQL, Google Ads/Analytics</p>
               <p className='text-start mt-1 text-md font-light'>Disponibilização de dados em tempo real por meio de ETL, tendo como fonte as ferramentas utilizadas, para assim disponibilizar dashboards em tempo real para colaboradores e clientes, com o intuito de eliminar o tempo gasto na criação de dashboards e relatórios</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Implementação de geolocalização</p>
