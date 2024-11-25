@@ -1,12 +1,16 @@
-import {BsFillMoonStarsFill} from 'react-icons/bs'
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
-import { Analytics } from "@vercel/analytics/react"
+import {BsFillMoonStarsFill} from 'react-icons/bs';
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
+import {FaFlagUsa, FaFlagBrazil} from 'react-icons/fa';
+import {Analytics } from "@vercel/analytics/react"
 import Link from 'next/link'
 import Head from 'next/head'
 
 export default function Home() {
   return (
+
     <div>
+      <div className='bg-neutral-900 grid grid-rows-1'>
+      </div>
       <main className='bg-neutral-900 px-5 flex items-center justify-center'>
 
         <section className='min-h-screen basis-2/6'>
@@ -37,19 +41,23 @@ export default function Home() {
               <p className='text-center text-3xl mt-20 font-medium bg-neutral-900'>Experiência</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Analista de Sistemas (Atual)</p>
-              <p className='text-start text-md italic font-light'>Beelieve Group</p>
+              <p className='text-start text-lg italic font-light'>Beelieve Group</p>
               <p className='text-start text-md font-light'><strong>Desenvolvimento de CRM | Análise de dados | ETL | Gerenciamento de infraestrutura de redes | Levantamento de requisitos | Arquitetura de sistemas</strong></p>
+              <p className='text-start text-md font-light'>- Criação de ETLs para monitoramento de campanhas, baseado em AWS (S3, Glue, Redshift, QuickSight).</p>
+              <p className='text-start text-md font-light'>- Criação de automações e cenários complexos para usos de diferentes setores dentro da empresa.</p>
+              <p className='text-start text-md font-light'>- Desenvolvimento de CRM (Hubspot) e automações para a equipe comercial. Monitoramento de infraestrutura de rede local e nuvem.</p>
+              <p className='text-start text-md font-light'>- Monitoramento de infraestrutura de rede local e nuvem.</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Scrum Master</p>
-              <p className='text-start text-md italic font-light'>V2Saúde</p>
+              <p className='text-start text-lg italic font-light'>V2Saúde</p>
               <p className='text-start text-md font-light'>Responsável por facilitar e manter os ritos SCRUM dentro da equipe. Planejamento da sprint e priorização de cards, acompanhamento das user stories e seus desenvolvimentos, refinamento junto aos analistas e condução dos ritos como Demo e Retro</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Analista de BI</p>
-              <p className='text-start text-md italic font-light'>V2Saúde</p>
+              <p className='text-start text-lg italic font-light'>V2Saúde</p>
               <p className='text-start text-md font-light'>Amazon Quicksight, reuniões diretamente com responsáveis das empresas atendidas e seus profissionais para entender suas solicitações, uso de SQL para extração de dados requisitados em solicitações e construção de análises e dashboards</p>
               <br></br>
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Analista de BI | Administrador de Sistemas</p>
-              <p className='text-start text-md italic font-light'>GSeg</p>
+              <p className='text-start text-lg italic font-light'>GSeg</p>
               <p className='text-start text-md font-light'>Responsável por extração, transformação e carregamento dos dados para gerar dashboards e reports para análise de giro de estoque, acompanhamento financeiro e campanhas de venda</p>
               <p className='text-start text-md font-light'>Responsável pelo preservação e manutenção da infraestrutura de rede local</p>
               <br></br>
