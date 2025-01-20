@@ -22,7 +22,7 @@ export default function Home() {
             <h3 className='text-2xl py-2 text-slate-100'>Desenvolvedor. Analista. Solucionador de problemas</h3>
 
             <div className='relative mx-auto rounded-full w-80 h-80 mt-10 overflow-hidden'>
-              <img src='/images/me_bee.png' alt='dev image'/>
+              <img src='/images/me1.jpg' alt='dev image'/>
             </div>
 
             <p className='text-md font-semibold py-5 leading-6 text-slate-100'>Desde 2021 atuando especificamente com tecnologia para melhorar processos e resultados dos lugares por onde eu passo</p>
