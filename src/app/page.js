@@ -21,7 +21,7 @@ export default function Home() {
 
             <h3 className='text-2xl py-2 text-slate-100'>Desenvolvedor. Analista. Solucionador de problemas</h3>
 
-            <div className='relative mx-auto rounded-full w-80 h-80 mt-10 overflow-hidden'>
+            <div className='relative mx-auto rounded-full w-80 h-85 mt-10 overflow-hidden'>
               <img src='/images/me1.jpg' alt='dev image'/>
             </div>
 
@@ -33,33 +33,55 @@ export default function Home() {
               </a>
             </div>
 
-            <div className='m-5 p-5 bg-neutral-900 text-slate-100'>
+            <div className='bg-neutral-900 text-slate-100'>
               <p className='text-center text-4xl font-normal'>Olá!</p>
               <br></br>
               <p className='text-center text-lg font-light'>Meu nome é Vinícius, e atualmente trabalho utilizando tecnolgia (códigos, scripts e análises) para trazer valor e vantagem estratégicas nos lugares onde atuo</p>
               <br></br>
-              <p className='text-center text-3xl mt-20 font-medium bg-neutral-900'>Experiência</p>
-              <br></br>
-              <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Analista de Sistemas (Atual)</p>
-              <p className='text-start text-lg italic font-light'>Beelieve Group</p>
-              <p className='text-start text-md font-light'><strong>Desenvolvimento de CRM | Análise de dados | ETL | Gerenciamento de infraestrutura de redes | Levantamento de requisitos | Arquitetura de sistemas</strong></p>
-              <p className='text-start text-md font-light'>- Criação de ETLs para monitoramento de campanhas, baseado em AWS (S3, Glue, Redshift, QuickSight).</p>
-              <p className='text-start text-md font-light'>- Criação de automações e cenários complexos para usos de diferentes setores dentro da empresa.</p>
-              <p className='text-start text-md font-light'>- Desenvolvimento de CRM (Hubspot) e automações para a equipe comercial. Monitoramento de infraestrutura de rede local e nuvem.</p>
-              <p className='text-start text-md font-light'>- Monitoramento de infraestrutura de rede local e nuvem.</p>
-              <br></br>
-              <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Scrum Master</p>
-              <p className='text-start text-lg italic font-light'>V2Saúde</p>
-              <p className='text-start text-md font-light'>Responsável por facilitar e manter os ritos SCRUM dentro da equipe. Planejamento da sprint e priorização de cards, acompanhamento das user stories e seus desenvolvimentos, refinamento junto aos analistas e condução dos ritos como Demo e Retro</p>
-              <br></br>
-              <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Analista de BI</p>
-              <p className='text-start text-lg italic font-light'>V2Saúde</p>
-              <p className='text-start text-md font-light'>Amazon Quicksight, reuniões diretamente com responsáveis das empresas atendidas e seus profissionais para entender suas solicitações, uso de SQL para extração de dados requisitados em solicitações e construção de análises e dashboards</p>
-              <br></br>
-              <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Analista de BI | Administrador de Sistemas</p>
-              <p className='text-start text-lg italic font-light'>GSeg</p>
-              <p className='text-start text-md font-light'>Responsável por extração, transformação e carregamento dos dados para gerar dashboards e reports para análise de giro de estoque, acompanhamento financeiro e campanhas de venda</p>
-              <p className='text-start text-md font-light'>Responsável pelo preservação e manutenção da infraestrutura de rede local</p>
+              
+              <div className='mt-20 mb-10 bg-neutral-900 p-7 rounded-2xl'>
+                <p className='text-center text-3xl font-medium'>Experiência</p>
+                <br></br>
+                <p className='text-start text-3xl mt-5 font-medium'>Analista de Dados - Analista de CRM</p>
+                <p className='text-start text-lg italic font-light'>V4 Company</p>
+                <p className='text-start text-md font-light'><strong>Análise de dados | Desenvolvimento de CRM | ETL | Automação de processos</strong></p>
+                <p className='text-start text-md font-light'>- Criação de ETLs para monitoramento de campanhas, baseado em AWS (S3, Glue, Redshift, QuickSight).</p>
+                <p className='text-start text-md font-light'>- Criação de automações e cenários complexos para usos de diferentes setores dentro da empresa.</p>
+                <p className='text-start text-md font-light'>- Desenvolvimento de CRM (Hubspot) e automações para a equipe comercial. Monitoramento de infraestrutura de rede local e nuvem.</p>
+                <p className='text-start text-md font-light'>- Monitoramento de infraestrutura de rede local e nuvem.</p>
+                <br></br>
+                <p className='text-start text-3xl mt-5 font-medium'>Analista de Sistemas</p>
+                <p className='text-start text-lg italic font-light'>Beelieve Group</p>
+                <p className='text-start text-md font-light'><strong>Desenvolvimento de CRM | Análise de dados | ETL | Gerenciamento de infraestrutura de redes | Levantamento de requisitos | Arquitetura de sistemas</strong></p>
+                <p className='text-start text-md font-light'>- Criação de ETLs para monitoramento de campanhas, baseado em AWS (S3, Glue, Redshift, QuickSight).</p>
+                <p className='text-start text-md font-light'>- Criação de automações e cenários complexos para usos de diferentes setores dentro da empresa.</p>
+                <p className='text-start text-md font-light'>- Desenvolvimento de CRM (Hubspot) e automações para a equipe comercial. Monitoramento de infraestrutura de rede local e nuvem.</p>
+                <p className='text-start text-md font-light'>- Monitoramento de infraestrutura de rede local e nuvem.</p>
+                <br></br>
+                <p className='text-start text-3xl mt-5 font-medium'>Scrum Master</p>
+                <p className='text-start text-lg italic font-light'>V2Saúde</p>
+                <p className='text-start text-md font-light'>Responsável por facilitar e manter os ritos SCRUM dentro da equipe. Planejamento da sprint e priorização de cards, acompanhamento das user stories e seus desenvolvimentos, refinamento junto aos analistas e condução dos ritos como Demo e Retro</p>
+                <br></br>
+                <p className='text-start text-3xl mt-5 font-medium'>Analista de BI</p>
+                <p className='text-start text-lg italic font-light'>V2Saúde</p>
+                <p className='text-start text-md font-light'>Amazon Quicksight, reuniões diretamente com responsáveis das empresas atendidas e seus profissionais para entender suas solicitações, uso de SQL para extração de dados requisitados em solicitações e construção de análises e dashboards</p>
+                <br></br>
+                <p className='text-start text-3xl mt-5 font-medium'>Analista de BI | Administrador de Sistemas</p>
+                <p className='text-start text-lg italic font-light'>GSeg</p>
+                <p className='text-start text-md font-light'>Responsável por extração, transformação e carregamento dos dados para gerar dashboards e reports para análise de giro de estoque, acompanhamento financeiro e campanhas de venda</p>
+                <p className='text-start text-md font-light'>Responsável pelo preservação e manutenção da infraestrutura de rede local</p>
+                <br></br>
+              </div>
+
+              <div className='bg-neutral-900 mt-20 p-7 rounded-2xl'>
+                <p className='text-center text-3xl font-medium'>Educação</p>
+                <br></br>
+                <p className='text-start text-3xl mt-5 font-medium'>Análise e Desenvolvimento de Sistemas</p>
+                <p className='text-start text-md font-light'>Universidade de Mogi das Cruzes | Completo (12/23)</p>
+                <br></br>
+                <p className='text-start text-3xl mt-5 font-medium'>Matemática - Bacharelado</p>
+                <p className='text-start text-md font-light mb-5'>Universidade Anhembi Morumbi | Cursando</p>
+              </div>
               <br></br>
               <p className='text-center text-3xl mt-20 font-medium bg-neutral-900'>Projetos</p>
               <br></br>
@@ -82,11 +104,6 @@ export default function Home() {
               <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Módulo de licitações</p>
               <p className='text-start text-md italic font-light'>Novo módulo em ERP para viabilizar o atendimento para licitações às empresas usuárias do software<br></br>Entregue | Projeto profissional<br></br>Papel: Scrum Master, PO<br></br>Tecnologias: Jira, Java, React</p>
               <p className='text-start mt-1 text-md font-light'>Módulo em sistema que, após estudos, possibilita que os usuários do software tenham um acompanhamento completo de suas licitações e empenhos a serem cumpridos. Conta com soluções como controle de prazos, controle de materiais entregues e pendentes, emissão de notas de serviço, etc</p>
-              <br></br>
-              <p className='text-center text-3xl mt-20 font-medium bg-neutral-900'>Educação</p>
-              <br></br>
-              <p className='text-start text-3xl mt-5 font-medium bg-neutral-900'>Análise e Desenvolvimento de Sistemas</p>
-              <p className='text-start text-md italic font-light'>Universidade de Mogi das Cruzes | 4/4 (12/23)</p>
             </div>
           </div>
 
